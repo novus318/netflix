@@ -13,6 +13,10 @@ function Banner() {
   
   return (
     <div style={{backgroundImage:`url(${movie ? imageUrl+movie.backdrop_path:''})`}} className='banner'>
+      <div className='b-bar'>
+      <img className='logo' src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/1920px-Netflix_2015_logo.svg.png" alt="Netflix logo" />
+        <button className='signin'>Sign In</button>
+    </div>
       <div className='content'> 
         <h1 className='title'>{movie ? movie.title:''}</h1>
         <div className='banner-button'>
