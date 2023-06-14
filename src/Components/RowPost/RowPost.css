@@ -2,6 +2,7 @@
     color: #fff;
 }
 .p-title{
+    margin-top: 0.3em;
     padding-left: 0.4em;
 }
 .posters{
@@ -16,4 +17,23 @@
 .poster{
     max-height: 15em;
     margin-right: 1.5em;
+    border-radius: 0.2em;
+}
+.poster-small{
+    max-height: 15em;
+    margin-right: 1.5em;
+    border-radius: 0.2em;
+}
+.youtube{
+    margin: auto;
+    max-width: 70em;
+    border-radius: 0.5em;
+}
+.poster:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.poster-small:hover{
+    cursor: pointer;
+    transform: scale(1.1);
 }
