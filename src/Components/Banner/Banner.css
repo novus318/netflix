@@ -1,6 +1,6 @@
 .banner{
     background-size: cover;
-    max-height: 38em;
+    width: 100%;
     color: #fff;
     -webkit-mask-image: linear-gradient(#111,rgb(37,37,37,0.65));
     mask-image:linear-gradient(#111,rgb(37,37,37,0.65));
