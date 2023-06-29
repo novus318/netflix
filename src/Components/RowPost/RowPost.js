@@ -6,7 +6,7 @@ import {imageUrl,API_KEY} from '../../constants/Constants'
 function RowPost(props) {
   const [post, setPost] = useState([])
   const [url, setUrl] = useState('')
-  useEffect(() => {
+  useEffect((props) => {
     axios.get(props.url).then((Response)=>{
       setPost(Response.data.results)
     })
