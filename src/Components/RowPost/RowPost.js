@@ -6,11 +6,11 @@ import {imageUrl,API_KEY} from '../../constants/Constants'
 function RowPost(props) {
   const [post, setPost] = useState([])
   const [url, setUrl] = useState('')
-  useEffect((props) => {
+  useEffect(() => {
     axios.get(props.url).then((Response)=>{
       setPost(Response.data.results)
     })
-  },[])
+  })
   const opts = {
     height: '400',
     width: '100%',
